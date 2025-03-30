@@ -5,11 +5,6 @@ public class maxminArray {
         }
 
         public static void findMinMax(int[] arr) {
-            if (arr == null || arr.length == 0) {
-                System.out.println("Array is empty.");
-                return;
-            }
-
             int min = arr[0];
             int max = arr[0];
 
